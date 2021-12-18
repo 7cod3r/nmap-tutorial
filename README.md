@@ -1,16 +1,20 @@
 # nmap-tutorial
-nmap challenge
-Tek Sunucuyu veya  IP Adresi tarama
-Tek bir IP adresi Tarama:
+### Tek Sunucuyu veya IP Adresi tarama
+```
+nmap 192.168.1.1
+```
+### Host Adı Tarama:
+```
+nmap ozkantan.com
+```
+### Ayrıntı Seviye artırın:
 
-  $ nmap 192.168.1.1
-Host Adı Tarama:
-
-  $ nmap ozkantan.com
-Ayrıntı Seviye artırın:
-
-  $ nmap -v ozkantan.com
-  $ nmap -vv ozkantan.com
+```
+nmap -v example.com
+```
+```
+nmap -vv example.com
+```
 ## IP Adresleri Tarama
 ### Çoklu IP Adresleri Tarama:
 ```
