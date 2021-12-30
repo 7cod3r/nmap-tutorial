@@ -5,7 +5,7 @@ nmap 192.168.1.1
 ```
 ### Host Adı Tarama:
 ```
-nmap ozkantan.com
+nmap example.com
 ```
 ### Ayrıntı Seviye artırın:
 
